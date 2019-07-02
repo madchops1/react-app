@@ -1,26 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="home">
+            <div class="text-wrapper">
+                <h1>Welcome To Karl's React App</h1>
+                <p>This app is built using React 16 with react-dom-router and postcss.</p>
+                <p>Each page is a component.</p>
+            </div>
+        </div>
+    );
 }
 
 export default App;

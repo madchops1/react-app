@@ -12,48 +12,46 @@ body {
 
 .App {
   text-align: center;
-}
 
-.App-logo {
+    &-logo {
         color: #fff;
         font-size: 24px;
         font-family: arial;    
         float: left;
     }
 
-.App-header {
+    &-header {
         background-color: #222;
         padding: 20px;
         color: white;
     }
 
-.App-nav {
+    &-nav {
         float: right;
-    }
 
-.App-nav li {
+        li {
             float: left;
             list-style: none;
             display: block;
             margin: 10px;
-    
-        }
-
-.App-nav li a {
+            a {
                 color: #fff;
-            }
-
-.App-nav li a:hover {
+                &:hover {
                     color: red;
                 }
+            }
+    
+        }
+    }
 
-.App-title {
+    &-title {
         font-size: 1.5em;
     }
 
-.App-intro {
+    &-intro {
         font-size: large; 
     }
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -63,9 +61,8 @@ body {
 .wrapper {
     /*padding: 20px;*/
     height: 100vh;
-}
 
-.wrapper > div {
+    > div {
         padding:20px;
         height: 100%;
         background-repeat: no-repeat;
@@ -73,7 +70,7 @@ body {
         background-position: center center;
     }
 
-.wrapper .text-wrapper {
+    .text-wrapper {
         background: rgba(255,255,255, 0.8);
         padding: 20px;
         width: 50%;
@@ -81,22 +78,23 @@ body {
         border-radius: 4px;
     }
 
-.wrapper .home {
+    .home {
         background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/53518739_10101041778759022_3983045918898257920_n.jpg?_nc_cat=111&_nc_oc=AQklTtwsFi-cKjNsOrchXMikWa58ONyoi4jBrB-4wFgbYMa3Nr61WT_7nM7sTi6w76a4kiEUiCsg6RDE70KPn__6&_nc_ht=scontent-ort2-1.xx&oh=72a2cb86de6f979182ac8656b88c754b&oe=5D7FD069);
     }
 
-.wrapper .board {
+    .board {
         background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14910464_10209353332103628_6798057502557110553_n.jpg?_nc_cat=109&_nc_oc=AQlB3fHvmQzSDG1QNImJ5Z7Sx0DWwKplQINBAhbkYVtBPQbCYNUlCHgCN8h9ih6mExgVti5QHrUgX4hPfEvy6NVx&_nc_ht=scontent-ort2-1.xx&oh=95c09b366186336fff568c3253017744&oe=5DB59820);
     }
 
-.wrapper .boat {
+    .boat {
         background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/41853866_10210843453237333_116261135455354880_n.jpg?_nc_cat=103&_nc_oc=AQnG3_eq5qnqu5D1yZwHQm8wuNYnolkIHoBl8PpesXW32A2xP1OkRVpvp9TU69CVzppWaraUifBU_UgeygqRXUng&_nc_ht=scontent-ort2-1.xx&oh=997161d7108238421dff7d922468e481&oe=5DB59FFF);
     }
 
-.wrapper .visual {
+    .visual {
         background-image:url(https://www.visualzstudio.com/assets/images/macbook.png);
     }
 
-.wrapper .drum {
+    .drum {
         background-image:url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12654259_10153844253508076_8547038017779932462_n.jpg?_nc_cat=102&_nc_oc=AQnDM6fZwqrv1up6g8TOrQ0vorOZMnSgGckL9vsgc1Bl-Rr-6oYjlfJkE2FZgcstbXGmTXkuixSKUPXK4ZicUMko&_nc_ht=scontent-ort2-1.xx&oh=7d009d5f36e29015a647c3c2e73e8a17&oe=5DBF87F6);   
     }
+}
